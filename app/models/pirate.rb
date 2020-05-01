@@ -4,7 +4,7 @@ class Pirate
   @@all = []
 
   def initialize(argument)
-    binding.pry
+    #binding.pry
     @name = argument[:name]
     @weight = argument[:weight]
     @height = argument[:height]
