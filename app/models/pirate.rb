@@ -3,7 +3,7 @@ class Pirate
 
   @@all = []
 
-  def initialize(params)
+  def initialize(argument)
     binding.pry
     @name = params[:name]
     @weight = params[:weight]
